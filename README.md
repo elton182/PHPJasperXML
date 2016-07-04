@@ -1,5 +1,4 @@
-# PHPJasperXML
-
+#PHPJasperXML
 
 *Criei esse pacote com a inteção de atualizar e utilizar essa biblioteca que facilita a criação de relatórios atravez o IReport, o maior report designer open source do mercado.
 
@@ -16,7 +15,7 @@ Atualizei as classes com namespaces para poder usar atravez da PSR-4 (autoload).
 3. Rode o composer dump-autoload
 4. No controller que for usar coloque:
 
-	```
+	```php
 	use Cake\Datasource\ConnectionManager;
 	use PHPJasperXML\TCPDF;
 	use PHPJasperXML\PHPJasperXML;
